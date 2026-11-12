@@ -1,7 +1,6 @@
-
-# "Environment": "dev"
-# "BusinessVersion": "2.2-alpha"
-# "BusinessDescription": "Development alpha version for testing."
+# environment: dev
+# businessVersion:2.2.1
+# businessDescription: This is a actual version.
 
 version: "2.4"
 
