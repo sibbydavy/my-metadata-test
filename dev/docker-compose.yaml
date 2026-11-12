@@ -1,7 +1,6 @@
 
 # Environment: dev
-# BusinessVersion: 2.2
-# BusinessDescription: Actual Development Version.
+
 
 version: "2.4"
 
