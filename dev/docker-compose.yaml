@@ -1,0 +1,20 @@
+
+# "Environment": "dev"
+# "BusinessVersion": "2.2"
+# "BusinessDescription": "Actual Development Version."
+
+version: "2.4"
+
+services:
+  database:
+    image: mariadb:10.6
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+
+  message-queue:
+    image: rabbitmq:3-management
+
+  c3-service:
+    image: nginx:latest
+    ports:
+      - "8080:80"
