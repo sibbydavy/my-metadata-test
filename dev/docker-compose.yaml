@@ -1,7 +1,7 @@
 
 # Environment: dev
-# BusinessVersion:v1.0.0
-# BusinessDescription: This is a actual dev version.
+# BusinessVersionXXX:v1.0.0
+# BusinessDescriptionXXX: This is a actual dev version.
 
 version: "2.4"
 
